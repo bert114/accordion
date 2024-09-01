@@ -30,6 +30,7 @@ main {
   min-height: 100vh;
   display: grid;
   place-items: center;
+  padding: 2rem 0;
 
   section {
     background-color: var(--clr-bg);
@@ -86,10 +87,15 @@ main {
       > :nth-child(1) {
         transition: 0.5s;
         font-size: 13px;
+
+        &:hover {
+          color: var(--clr-primary400);
+        }
       }
 
       > :nth-child(2) {
         color: var(--clr-primary400);
+        font-size: 13px;
       }
     }
 
