@@ -9,7 +9,6 @@ body {
   @include font-setup;
   background: $bg;
   font-size: 12px;
-  padding-bottom: 200vh;
 }
 
 h1 {
@@ -86,6 +85,10 @@ main {
       > :nth-child(1) {
         transition: 0.5s;
         font-size: 13px;
+
+        &:hover {
+          color: var(--clr-primary400);
+        }
       }
 
       > :nth-child(2) {
